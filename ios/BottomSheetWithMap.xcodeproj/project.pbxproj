@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* SentianceAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SentianceAppTests.m */; };
+		00E356F31AD99517003FC87E /* BottomSheetWithMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BottomSheetWithMapTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		519B8F857B30766289E1114B /* libPods-SentianceApp-SentianceAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BAA5D382198662FBBC0233 /* libPods-SentianceApp-SentianceAppTests.a */; };
-		713A2567C63CD82607ECA87E /* libPods-SentianceApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8498217D9C2BDC9969031C /* libPods-SentianceApp.a */; };
+		519B8F857B30766289E1114B /* libPods-BottomSheetWithMap-BottomSheetWithMapTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BAA5D382198662FBBC0233 /* libPods-BottomSheetWithMap-BottomSheetWithMapTests.a */; };
+		713A2567C63CD82607ECA87E /* libPods-BottomSheetWithMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8498217D9C2BDC9969031C /* libPods-BottomSheetWithMap.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = SentianceApp;
+			remoteInfo = BottomSheetWithMap;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* SentianceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentianceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* BottomSheetWithMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomSheetWithMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* SentianceAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SentianceAppTests.m; sourceTree = "<group>"; };
-		0F25D5F64C26A7C06F1017F2 /* Pods-SentianceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentianceApp.release.xcconfig"; path = "Target Support Files/Pods-SentianceApp/Pods-SentianceApp.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* SentianceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentianceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SentianceApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SentianceApp/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SentianceApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SentianceApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SentianceApp/main.m; sourceTree = "<group>"; };
-		1A58AB770518CF2C5BC39C3A /* Pods-SentianceApp-SentianceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentianceApp-SentianceAppTests.release.xcconfig"; path = "Target Support Files/Pods-SentianceApp-SentianceAppTests/Pods-SentianceApp-SentianceAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		3F8498217D9C2BDC9969031C /* libPods-SentianceApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SentianceApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SentianceApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8EF177D4FC37C36D56995937 /* Pods-SentianceApp-SentianceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentianceApp-SentianceAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SentianceApp-SentianceAppTests/Pods-SentianceApp-SentianceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0D66ACF43E565DC92BA0E68 /* Pods-SentianceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentianceApp.debug.xcconfig"; path = "Target Support Files/Pods-SentianceApp/Pods-SentianceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BottomSheetWithMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomSheetWithMapTests.m; sourceTree = "<group>"; };
+		0F25D5F64C26A7C06F1017F2 /* Pods-BottomSheetWithMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomSheetWithMap.release.xcconfig"; path = "Target Support Files/Pods-BottomSheetWithMap/Pods-BottomSheetWithMap.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* BottomSheetWithMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomSheetWithMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BottomSheetWithMap/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BottomSheetWithMap/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BottomSheetWithMap/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BottomSheetWithMap/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BottomSheetWithMap/main.m; sourceTree = "<group>"; };
+		1A58AB770518CF2C5BC39C3A /* Pods-BottomSheetWithMap-BottomSheetWithMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomSheetWithMap-BottomSheetWithMapTests.release.xcconfig"; path = "Target Support Files/Pods-BottomSheetWithMap-BottomSheetWithMapTests/Pods-BottomSheetWithMap-BottomSheetWithMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F8498217D9C2BDC9969031C /* libPods-BottomSheetWithMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomSheetWithMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BottomSheetWithMap/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EF177D4FC37C36D56995937 /* Pods-BottomSheetWithMap-BottomSheetWithMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomSheetWithMap-BottomSheetWithMapTests.debug.xcconfig"; path = "Target Support Files/Pods-BottomSheetWithMap-BottomSheetWithMapTests/Pods-BottomSheetWithMap-BottomSheetWithMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D66ACF43E565DC92BA0E68 /* Pods-BottomSheetWithMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomSheetWithMap.debug.xcconfig"; path = "Target Support Files/Pods-BottomSheetWithMap/Pods-BottomSheetWithMap.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F3BAA5D382198662FBBC0233 /* libPods-SentianceApp-SentianceAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SentianceApp-SentianceAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BAA5D382198662FBBC0233 /* libPods-BottomSheetWithMap-BottomSheetWithMapTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomSheetWithMap-BottomSheetWithMapTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				519B8F857B30766289E1114B /* libPods-SentianceApp-SentianceAppTests.a in Frameworks */,
+				519B8F857B30766289E1114B /* libPods-BottomSheetWithMap-BottomSheetWithMapTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				713A2567C63CD82607ECA87E /* libPods-SentianceApp.a in Frameworks */,
+				713A2567C63CD82607ECA87E /* libPods-BottomSheetWithMap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* SentianceAppTests */ = {
+		00E356EF1AD99517003FC87E /* BottomSheetWithMapTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* SentianceAppTests.m */,
+				00E356F21AD99517003FC87E /* BottomSheetWithMapTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = SentianceAppTests;
+			path = BottomSheetWithMapTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* SentianceApp */ = {
+		13B07FAE1A68108700A75B9A /* BottomSheetWithMap */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = SentianceApp;
+			name = BottomSheetWithMap;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				3F8498217D9C2BDC9969031C /* libPods-SentianceApp.a */,
-				F3BAA5D382198662FBBC0233 /* libPods-SentianceApp-SentianceAppTests.a */,
+				3F8498217D9C2BDC9969031C /* libPods-BottomSheetWithMap.a */,
+				F3BAA5D382198662FBBC0233 /* libPods-BottomSheetWithMap-BottomSheetWithMapTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* SentianceApp */,
+				13B07FAE1A68108700A75B9A /* BottomSheetWithMap */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* SentianceAppTests */,
+				00E356EF1AD99517003FC87E /* BottomSheetWithMapTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C411FE0EF5CD38CBC308A3C5 /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* SentianceApp.app */,
-				00E356EE1AD99517003FC87E /* SentianceAppTests.xctest */,
+				13B07F961A680F5B00A75B9A /* BottomSheetWithMap.app */,
+				00E356EE1AD99517003FC87E /* BottomSheetWithMapTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		C411FE0EF5CD38CBC308A3C5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0D66ACF43E565DC92BA0E68 /* Pods-SentianceApp.debug.xcconfig */,
-				0F25D5F64C26A7C06F1017F2 /* Pods-SentianceApp.release.xcconfig */,
-				8EF177D4FC37C36D56995937 /* Pods-SentianceApp-SentianceAppTests.debug.xcconfig */,
-				1A58AB770518CF2C5BC39C3A /* Pods-SentianceApp-SentianceAppTests.release.xcconfig */,
+				C0D66ACF43E565DC92BA0E68 /* Pods-BottomSheetWithMap.debug.xcconfig */,
+				0F25D5F64C26A7C06F1017F2 /* Pods-BottomSheetWithMap.release.xcconfig */,
+				8EF177D4FC37C36D56995937 /* Pods-BottomSheetWithMap-BottomSheetWithMapTests.debug.xcconfig */,
+				1A58AB770518CF2C5BC39C3A /* Pods-BottomSheetWithMap-BottomSheetWithMapTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* SentianceAppTests */ = {
+		00E356ED1AD99517003FC87E /* BottomSheetWithMapTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SentianceAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BottomSheetWithMapTests" */;
 			buildPhases = (
 				D19DC38FB7988F3471AF41AA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = SentianceAppTests;
-			productName = SentianceAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* SentianceAppTests.xctest */;
+			name = BottomSheetWithMapTests;
+			productName = BottomSheetWithMapTests;
+			productReference = 00E356EE1AD99517003FC87E /* BottomSheetWithMapTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* SentianceApp */ = {
+		13B07F861A680F5B00A75B9A /* BottomSheetWithMap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SentianceApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BottomSheetWithMap" */;
 			buildPhases = (
 				2123E1268E1D0513E6D14C6B /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = SentianceApp;
-			productName = SentianceApp;
-			productReference = 13B07F961A680F5B00A75B9A /* SentianceApp.app */;
+			name = BottomSheetWithMap;
+			productName = BottomSheetWithMap;
+			productReference = 13B07F961A680F5B00A75B9A /* BottomSheetWithMap.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SentianceApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BottomSheetWithMap" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* SentianceApp */,
-				00E356ED1AD99517003FC87E /* SentianceAppTests */,
+				13B07F861A680F5B00A75B9A /* BottomSheetWithMap */,
+				00E356ED1AD99517003FC87E /* BottomSheetWithMapTests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +280,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SentianceApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BottomSheetWithMap-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -293,15 +293,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SentianceApp/Pods-SentianceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap/Pods-BottomSheetWithMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SentianceApp/Pods-SentianceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap/Pods-BottomSheetWithMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SentianceApp/Pods-SentianceApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap/Pods-BottomSheetWithMap-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9E8ABDF7DCC2EF93C1391865 /* [CP] Copy Pods Resources */ = {
@@ -310,15 +310,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SentianceApp-SentianceAppTests/Pods-SentianceApp-SentianceAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap-BottomSheetWithMapTests/Pods-BottomSheetWithMap-BottomSheetWithMapTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SentianceApp-SentianceAppTests/Pods-SentianceApp-SentianceAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap-BottomSheetWithMapTests/Pods-BottomSheetWithMap-BottomSheetWithMapTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SentianceApp-SentianceAppTests/Pods-SentianceApp-SentianceAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap-BottomSheetWithMapTests/Pods-BottomSheetWithMap-BottomSheetWithMapTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D19DC38FB7988F3471AF41AA /* [CP] Check Pods Manifest.lock */ = {
@@ -336,7 +336,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SentianceApp-SentianceAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BottomSheetWithMap-BottomSheetWithMapTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -349,15 +349,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SentianceApp/Pods-SentianceApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap/Pods-BottomSheetWithMap-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SentianceApp/Pods-SentianceApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap/Pods-BottomSheetWithMap-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SentianceApp/Pods-SentianceApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap/Pods-BottomSheetWithMap-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FCDCEFB50ACA13DC4BBDAC6C /* [CP] Embed Pods Frameworks */ = {
@@ -366,15 +366,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SentianceApp-SentianceAppTests/Pods-SentianceApp-SentianceAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap-BottomSheetWithMapTests/Pods-BottomSheetWithMap-BottomSheetWithMapTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SentianceApp-SentianceAppTests/Pods-SentianceApp-SentianceAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap-BottomSheetWithMapTests/Pods-BottomSheetWithMap-BottomSheetWithMapTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SentianceApp-SentianceAppTests/Pods-SentianceApp-SentianceAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BottomSheetWithMap-BottomSheetWithMapTests/Pods-BottomSheetWithMap-BottomSheetWithMapTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* SentianceAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* BottomSheetWithMapTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* SentianceApp */;
+			target = 13B07F861A680F5B00A75B9A /* BottomSheetWithMap */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EF177D4FC37C36D56995937 /* Pods-SentianceApp-SentianceAppTests.debug.xcconfig */;
+			baseConfigurationReference = 8EF177D4FC37C36D56995937 /* Pods-BottomSheetWithMap-BottomSheetWithMapTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SentianceAppTests/Info.plist;
+				INFOPLIST_FILE = BottomSheetWithMapTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentianceApp.app/SentianceApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BottomSheetWithMap.app/BottomSheetWithMap";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A58AB770518CF2C5BC39C3A /* Pods-SentianceApp-SentianceAppTests.release.xcconfig */;
+			baseConfigurationReference = 1A58AB770518CF2C5BC39C3A /* Pods-BottomSheetWithMap-BottomSheetWithMapTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = SentianceAppTests/Info.plist;
+				INFOPLIST_FILE = BottomSheetWithMapTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentianceApp.app/SentianceApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BottomSheetWithMap.app/BottomSheetWithMap";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0D66ACF43E565DC92BA0E68 /* Pods-SentianceApp.debug.xcconfig */;
+			baseConfigurationReference = C0D66ACF43E565DC92BA0E68 /* Pods-BottomSheetWithMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = SentianceApp/Info.plist;
+				INFOPLIST_FILE = BottomSheetWithMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = SentianceApp;
+				PRODUCT_NAME = BottomSheetWithMap;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F25D5F64C26A7C06F1017F2 /* Pods-SentianceApp.release.xcconfig */;
+			baseConfigurationReference = 0F25D5F64C26A7C06F1017F2 /* Pods-BottomSheetWithMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = SentianceApp/Info.plist;
+				INFOPLIST_FILE = BottomSheetWithMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = SentianceApp;
+				PRODUCT_NAME = BottomSheetWithMap;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SentianceAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BottomSheetWithMapTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SentianceApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BottomSheetWithMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SentianceApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BottomSheetWithMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

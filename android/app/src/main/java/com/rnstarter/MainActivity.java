@@ -12,7 +12,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "SentianceApp";
+    return "BottomSheetWithMap";
   }
   @Override
   protected ReactActivityDelegate createReactActivityDelegate() {
